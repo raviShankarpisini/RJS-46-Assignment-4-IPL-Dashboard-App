@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.team-matches-container {
+  height: 100vh;
+  background-size: cover;
+  padding: 3%;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.banner-image {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.heading-text {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  padding: 0%;
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+}
+
+.loader-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

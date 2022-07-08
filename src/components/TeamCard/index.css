@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.link-style {
+  text-decoration: none;
+  color: black;
+  width: 48%;
+  background-color: #ffffff33;
+  margin-bottom: 2%;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team-image {
+  width: 25%;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.team-text {
+  text-align: center;
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .team-text {
+    font-size: 18px;
+  }
+  .team-image {
+    height: 100px;
+    width: 30%;
+  }
+}

@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.match-card {
+  width: 30%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .match-card {
+    width: 48%;
+  }
+}
+.card-image {
+  width: 40%;
+}
+.heading {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.result {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  text-align: center;
+}
+
+.won {
+  color: green;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.loss {
+  color: red;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
